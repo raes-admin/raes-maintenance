@@ -1,9 +1,97 @@
-<html>
+<!doctype html>
+<html lang="ja">
+<link  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" rel="stylesheet">
+<script crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <head>
-<meta charset="utf-8">
-<title>メンテナンス中だおら(^_-)-☆</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RAES 管理者ログイン</title>
 </head>
+
+<style>
+	/* 背景色 */
+	body {
+	background-color: #f1f7fc;
+	color: #000000;
+	}
+
+	/* 画像背景色 */
+	.register-photo {
+	  background: #f1f7fc;
+	  padding: 60px 0;
+	}
+
+	/* 画像サイズ */
+	.register-photo .image-holder {
+	  display: table-cell;
+	  width: auto;
+	  background-image: url("icon/raes_top.jpeg");
+	  background-size: cover;
+	  background-repeat:  no-repeat; 
+	  background-position:center center;
+	}
+
+	/* ログインフォームの大きさ(コンテナ) */
+	.register-photo .form-container {
+	  display: table;
+	  max-width: 1200px;
+	  width: 90%;
+	  margin: 0 auto;
+	  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	}
+
+	/* ログインフォームの大きさ */
+	.register-photo form {
+	  display: table-cell;
+	  width: 600px;
+	  background-color: #ffffff;
+	  padding: 40px 60px;
+	  color: #505e6c;
+	}
+
+	/* ログインフォームのヘッダー */
+	.register-photo form h2 {
+	  font-size: 24px;
+	  line-height: 1.5;
+	  margin-bottom: 30px;
+	}
+
+	/* 入力フォームのカラー設定 */
+	.register-photo form .form-control {
+	  background: #f7f9fc;
+	  border: none;
+	  border-bottom: 1px solid #dfe7f1;
+	  border-radius: 0;
+	  box-shadow: none;
+	  outline: none;
+	  color: inherit;
+	  text-indent: 6px;
+	  height: 40px;
+	}
+
+</style>
+
 <body>
-メンテナンス中だおら(^_-)-☆
+	<nav class="navbar navbar-expand-md fixed-top shadow-sm" style="background-color:#ffffff;">
+		<a class="navbar-brand" href=""><img src="icon/raes_icon.png" width="80" height="40"></a>  
+	</nav><br><br><br><br>
+
+	<div class="register-photo">
+		<div class="form-container">
+			<div class="image-holder"></div>
+			<form method="post">
+				<h2 class="text-center"><strong>メンテナンス中</strong></h2>
+				ただいまメンテナンス中のため、システムがご利用いただけません。
+				<br>
+				メンテナンス終了予定は〇月〇日〇時ごろを予定しております。
+				<br>
+				システムに関するお問い合わせは以下までお願いいたします。
+				<br>
+				XXX-XXXX－XXXX
+		</div>
+	</div>
 </body>
+
 </html>
